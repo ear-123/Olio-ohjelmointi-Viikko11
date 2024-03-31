@@ -33,5 +33,6 @@ public class AddGroceryActivity extends AppCompatActivity {
 
         ListGrocery.getInstance().addGrocery(new Grocery(groceryName, groceryNote));
 
+
     }
 }

@@ -22,13 +22,13 @@
         android:text="TextView" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageEdit"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         app:srcCompat="@drawable/baseline_edit_24" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageDelete"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         app:srcCompat="@drawable/baseline_delete_24" />

@@ -33,10 +33,13 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.rvGroceries);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new GroceryListAdapter(getApplicationContext(), groceryList.getGroceries()));
+
+
     }
 
     public void swichToAddGrocery(View view){
         Intent intent = new Intent(this, AddGroceryActivity.class);
+
         startActivity(intent);
     }
 }

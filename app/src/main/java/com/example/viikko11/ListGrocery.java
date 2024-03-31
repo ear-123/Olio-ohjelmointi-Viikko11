@@ -13,6 +13,7 @@ public class ListGrocery {
     public static ListGrocery getInstance(){
         if (listGrocery == null) {
             listGrocery = new ListGrocery();
+            listGrocery.addGrocery(new Grocery("test", "example"));
         }
         return listGrocery;
     }
@@ -27,7 +28,8 @@ public class ListGrocery {
                 return grocery;
             }
         }
-        return new Grocery("Example name", "Example note");
+        return null;
+        //return new Grocery("Example name", "Example note");
     }
     public ArrayList<Grocery> getGroceries(){
         return list;
